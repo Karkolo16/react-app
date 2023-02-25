@@ -8,4 +8,8 @@
     background-color:#F8D110 ;
   }
 
-  
+  .todo-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
