@@ -15,7 +15,7 @@ function TodoList() {
     }
 
 
-
+// edit todos
     const updateTodo = (todoId, newValue) =>{
         if (newValue.text ===""){
             return;
@@ -25,7 +25,7 @@ function TodoList() {
 
 
    
-
+// remove todos//
     const removeTodo = id =>{
         const removeArr = [...todos].filter(todo => todo.id !== id)
 
@@ -60,3 +60,5 @@ return (
 }
 
 export default TodoList
+
+
