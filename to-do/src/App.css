@@ -36,6 +36,7 @@ h1 {
   .todo-form {
     margin-bottom: 32px;
   }
+  
   .todo-input {
     padding: 14px 32px 14px 16px;
     border-radius: 4px 0 0 4px;
@@ -45,10 +46,7 @@ h1 {
     background: transparent;
     color: #fff;
   }
-  
-  .todo-input::placeholder {
-    color: #e2e2e2;
-  }
+
   .todo-button {
     padding: 16px;
     border: none;
@@ -62,4 +60,14 @@ h1 {
     );
     color: #fff;
     text-transform: capitalize;
+  }
+  
+
+.todo-button.edit {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+    padding: 16px 22px;
   }
